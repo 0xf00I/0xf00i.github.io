@@ -1,0 +1,20 @@
+title: '/Home'
+description: "A security blog focusing on malware development, reverse engineering, and binary exploitation."
+baseurl: ""
+url: "https://0xf00I.github.io"
+
+markdown: kramdown
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+nav:
+  - name: "About"
+    link: "/about"
+    
+  - name: "Blog"
+    link: "/blog"
+
+
+exclude: ["README.md"]
